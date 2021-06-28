@@ -1,0 +1,109 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px  lightgray;
+    text-align: center;
+}
+header img{
+    margin-top: 15px;
+    height: 50px;
+    padding-left: 40px;
+}
+.login{
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main{
+    clear: left;
+    width: 100%;
+}
+.confirm h2{
+    border-bottom:1px solid #31A263;
+    text-align: center;
+    font-size: 25px;
+}
+.confirm p{
+    text-align: center;
+}
+.name{
+    margin-bottom: 20px;
+}
+.mail{
+    margin-bottom: 20px;
+}
+.password{
+    margin-bottom: 20px;
+}
+.picture{
+    margin-bottom: 20px;
+}
+.comments{
+    margin-bottom: 20px;
+}
+.confirm{
+    margin:0 auto;
+    background-color:white;
+    border: 2px solid lightgray; 
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.buttons{
+    text-align: center;
+}
+.modoru{
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 6px 10px 4px 10px;
+    color: white;
+    background-color: lightgray;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 120px;
+    font-size: 14px;
+}
+.submit_button{
+    border: 1px solid lightgray;
+    padding: 6px 10px 4px 10px;
+    color: white;
+    background-color:#31A263;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+    width: 140px;
+    font-size: 15px;
+}
+.submit{
+    display: inline-block;
+}
+
+.modoru a{
+    text-decoration: none;
+}
+.modoru a:link{
+    color: white;
+}
+.modoru a:visited{
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: 2px solid lightgray;
+}
